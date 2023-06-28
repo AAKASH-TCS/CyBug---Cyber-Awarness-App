@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/teal_700"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sv"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+            <ImageButton
+                android:id="@+id/back1"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:src="@drawable/img_2"
+                ></ImageButton>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Introduction on CyBug"
+                android:textSize="30dp"
+                android:textStyle="bold"></TextView>
+
+        </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:id="@+id/cardView">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Good day ! , The Team of CyBug is happy to have you trying out our application which is totally dedicated
+to improve your perspective , knowledge and way of approach towards Cyber Hygiene .
+                \n \n •The application is Designed in way that it offers Core Knowledge on various threats and Vulnerabilities which commonly any person irrespective of age
+,gender , background will face at any point in the tenure of usage of internet .\n\n •Provides the top notch information gathered from various Cybersecurity agencies such that the user can gain more insights ,knowledge and be updated on the precautions .\n\n•
+In a Survey , it is Stated that every 39 seconds a cyberattack takes place somewhere in the world.\n\n"
+                android:textColor="@color/teal_700"
+                android:textFontWeight="700"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="767dp"
+                tools:layout_conversion_absoluteWidth="411dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="230dp"></TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageButton
+            android:id="@+id/proceed2"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="100dp"
+            android:overScrollMode="ifContentScrolls"
+android:background="@drawable/button"
+            android:src="@drawable/proceedbtn" android:layout_marginBottom="30dp">
+
+
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+</ScrollView>

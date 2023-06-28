@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent layout as linear layout-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/cardview_dark_background"
+    tools:context=".calculator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER YOUR DATE OF BIRTH BELOW"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/oswald_medium"
+        android:background="@color/cardview_dark_background"
+        android:backgroundTint="@color/design_default_color_on_primary"
+        android:includeFontPadding="true"
+        android:fadingEdge="horizontal"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="20dp" ></LinearLayout>
+
+    <!-- linear layout to show datepickers-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- to select the first date-->
+        <Button
+            android:id="@+id/bt_birth"
+            android:layout_width="263dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:background="@color/dak1"
+            android:drawableRight="@drawable/ic_faceline"
+            android:text="01/01/2021"
+            android:backgroundTint="@color/bl"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <!-- displaying message as "to"-->
+
+
+        <!-- to display date number 2-->
+        <Button
+            android:id="@+id/bt_today"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/ic_faceline"
+            android:textColor="@color/black"
+            android:textSize="0sp" />
+
+    </LinearLayout>
+    <!-- to perform the calculation-->
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SUBMIT" />
+
+    <!-- to display the message "Result"-->
+
+
+    <!-- To show the final output(age)-->
+
+
+</LinearLayout>
